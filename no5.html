@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>No.5</title>
+	  	<script type="text/javascript">
+
+		function calculate()
+		{
+			var win=parseInt(document.myform.win.value);
+			var draw=parseInt(document.myform.draw.value);
+			var lose=parseInt(document.myform.lose.value);
+
+			console.log(win, draw, lose);
+
+
+			document.myform.Total.value=((win*3)+(draw*1)+(lose*0));
+			
+		}
+	</script>
+</head>
+<body>
+	<h1>Enter Football Result</h1>
+	<form name="myform" >
+		Win: <input type="number" name="win" ><br>
+		Draw: <input type="number" name="draw" ><br>
+		Lose: <input type="number" name="lose" ><br>
+
+		<input type="button" value="calculator" onclick="calculate()">
+		<br>
+	      Result: 
+		<input type="number" name="Total">
+		
+
+	</form>
+
+
+</body>
+</html>

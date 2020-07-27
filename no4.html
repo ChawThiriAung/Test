@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>No.4</title>
+		<script type="text/javascript">
+		function calculate () {
+			var firstnumber=parseInt(document.myform.firstnumber.value);
+			var SecondNumber=parseInt(document.myform.SecondNumber.value);
+			console.log(firstnumber,SecondNumber);
+			
+			sum(firstnumber,SecondNumber);
+		}
+	function sum(a,b){
+		var sum= a+b
+		document.myform.sum.value=sum;
+
+	}
+
+	</script>
+</head>
+<body>
+	<form name="myform" >
+	<br>
+	firstnumber:
+	<input type="number" name="firstnumber">
+	<br>
+	SecondNumber:
+	<input type="number" name="SecondNumber">
+	<br>
+	<input type="button" name="calculator" value="Calculator" onclick="calculate()">
+	<br>
+	Sum:
+	<input type="tag" name="sum">
+	<br>
+	
+
+
+</form>
+
+
+</body>
+</html>

@@ -1,0 +1,84 @@
+.img {
+  border-radius: 50%;
+}
+.google {
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 20px;
+  width: 300px;
+  height: 3px;
+}
+div#title_myFaq{
+	margin-top: 30px;
+}
+div#title_myFaq hr{
+	border: none;
+	width: 7%;
+	margin: 0 auto;
+	height: 1px;
+	color: black;
+	background-color: black;
+	margin-bottom:20px;
+
+}
+.btn-link:after{
+	content: '\2212';
+	font-weight: bold;
+	position: absolute;
+	top: 15px;
+	right: 1rem;
+}
+.btn-link.collapsed:after{
+	content: '\002B';
+	font-weight: bold;
+	position: absolute;
+	top: 15px;
+	right: 1rem;
+}
+div#title_text hr{
+	border: none;
+	width: 7%;
+	margin: 0 auto;
+	height: 1px;
+	color: black;
+	background-color: black;
+	margin-bottom: 70px;
+
+}
+a.abtContact{
+	color: #A9A9A9;
+}
+a.abtContact:hover{
+	color: #000000;
+	cursor: pointer;
+}
+div#myform{
+	width: 50%;
+	text-align: center;
+	
+
+}
+#mybtn{
+	padding: 5px 20px;
+	border-radius: 10px;
+	margin-left: 550px;
+}
+
+h3.sub_title {
+		font-family: geneva;
+		font-size: 30px;
+		text-align: center;
+		color:#ee7600;
+	}
+
+	</style>
+#searchbar{
+	width: 500px;
+}
+#results{
+	font-size: 13px;
+	color: grey;
+}
+#hr{
+	border: 2px solid;
+}
